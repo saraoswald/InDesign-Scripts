@@ -12,7 +12,7 @@ var directory = new File($.fileName).parent;
 
 // DIALOG
 // ======
-var dialog = new Window("window", undefined, undefined, {maximizeButton: false}); 
+var dialog = new Window("palette", "Letterer Buddy", undefined, {maximizeButton: false}); 
     dialog.text = "Letterer Buddy"; 
     dialog.orientation = "column"; 
     dialog.alignChildren = ["center","top"]; 
